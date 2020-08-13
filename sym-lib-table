@@ -1,2 +1,8 @@
 (sym_lib_table
+  (lib (name utsvt-bps)(type Legacy)(uri ${KIPRJMOD}/bps-libs/utsvt-bps.lib)(options "")(descr ""))
+  (lib (name utsvt-chips)(type Legacy)(uri ${KIPRJMOD}/common/utsvt-chips.lib)(options "")(descr ""))
+  (lib (name utsvt-connectors)(type Legacy)(uri ${KIPRJMOD}/common/utsvt-connectors.lib)(options "")(descr ""))
+  (lib (name utsvt-microcontrollers)(type Legacy)(uri ${KIPRJMOD}/common/utsvt-microcontrollers.lib)(options "")(descr ""))
+  (lib (name utsvt-misc)(type Legacy)(uri ${KIPRJMOD}/common/utsvt-misc.lib)(options "")(descr ""))
+  (lib (name utsvt-power-regulators)(type Legacy)(uri ${KIPRJMOD}/common/utsvt-power-regulators.lib)(options "")(descr ""))
 )
