@@ -1097,7 +1097,7 @@
     (tags "connector Molex Micro-Fit_3.0 top entry")
     (path "/00000000-0000-0000-0000-00005cab16b3")
     (attr through_hole)
-    (fp_text reference "J5" (at -4.1 -7 180) (layer "F.SilkS")
+    (fp_text reference "J5" (at -4.1 -7) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3e600ade-b9e5-43f1-9330-3c51bb2e6122)
     )
@@ -1154,10 +1154,10 @@
       (net 86 "Net-(J5-Pad1)") (tstamp 631bc376-b43b-4726-a49e-c60199df12b0))
     (pad "2" thru_hole oval (at 3 0 270) (size 1.5 2.02) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 85 "Net-(J5-Pad2)") (tstamp 958cc6ae-0a09-4606-b99b-15562bfea1ae))
-    (model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/common/UTSVT_Connectors.pretty/Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal.stp"
+      (offset (xyz 1.5 4 2))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -1168,7 +1168,7 @@
     (tags "connector Molex Micro-Fit_3.0 top entry")
     (path "/00000000-0000-0000-0000-00005cadf981")
     (attr through_hole)
-    (fp_text reference "J6" (at 7.25 -7 180) (layer "F.SilkS")
+    (fp_text reference "J6" (at 7.25 -7) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc92a13a-e89b-413e-aa36-4ecddfc05bf3)
     )
@@ -1225,10 +1225,10 @@
       (net 87 "Net-(J6-Pad1)") (tstamp a5888398-60b0-4f49-82a1-34cfa4ac7474))
     (pad "2" thru_hole oval (at 3 0 270) (size 1.5 2.02) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 88 "Net-(J6-Pad2)") (tstamp 95fa0d72-9386-4d18-8a58-7f0e60c1fe2f))
-    (model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/common/UTSVT_Connectors.pretty/Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal.stp"
+      (offset (xyz 1.5 3.5 2.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 -180 0))
     )
   )
 
@@ -4688,6 +4688,11 @@
       (net 77 "/IMB") (tstamp 18813717-ed1f-46c6-97a1-27e0dd9c7b59))
     (pad "48" smd rect (at 3.429 -5.750001) (size 1.651 0.254) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 78 "/IPB") (tstamp 761dab6d-32e8-414e-8b9a-740a7a2b96c0))
+    (model "${KIPRJMOD}/common/utsvt3d/chips.3dshapes/LTC6811HG-1#PBF.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (layer "F.Cu")
