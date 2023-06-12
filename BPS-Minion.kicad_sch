@@ -6222,8 +6222,8 @@
     (effects (font (size 1.016 1.016)) (justify left bottom))
     (uuid 28b23aa0-1eb0-4e7b-97d5-06977f26882a)
   )
-  (text "Questions:\nAdd Watchdog connection?\nConnect the remaining 4 unused GPIO ports?\nIs it fine if i just stole the can circuit we normally use :(\nHow does crystal oscillator work\nDo we still need a digital isolator if it's on the same board?\nConnect RX+- and TX+- to stm\nCan we connect IsoSPI to SPI connections on stm\nShould we connect the i2c and spi pins that the LTC uses to the stm"
-    (at 199.39 72.39 0)
+  (text "Questions:\nAdd Watchdog connection?\nConnect the remaining 4 unused GPIO ports?\nIs it fine if i just stole the can circuit we normally use :(\nHow does crystal oscillator work\nDo we still need a digital isolator if it's on the same board?\nConnect RX+- and TX+- to stm\nCan we connect IsoSPI to SPI connections on stm\nShould we connect the i2c and spi pins that the LTC uses to stm\nDoes it matter which connection is RX and TX on stm\nDo we need VBat for anything? We don't have a battery connected to it\nAny extra uses for unused pins (connecting the 6255 as well maybe?)"
+    (at 198.12 80.01 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2dd3e7d6-164f-4351-a79f-0aec6e0d53ef)
   )
