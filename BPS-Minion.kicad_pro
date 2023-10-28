@@ -447,6 +447,10 @@
     [
       "65591444-50c0-46ff-82f0-4bfa8ad4eabe",
       "Temperature"
+    ],
+    [
+      "98f2c097-f698-458d-a76f-f260a66d6150",
+      "Temperature1"
     ]
   ],
   "text_variables": {}
