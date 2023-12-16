@@ -3298,7 +3298,7 @@
     (property "Value" "ADS7953SBDBT" (at 204.47 24.13 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_SO:HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm" (at 237.49 31.75 0)
+    (property "Footprint" "Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm" (at 237.49 31.75 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "ADS7953SBDBT" (at 237.49 31.75 0)

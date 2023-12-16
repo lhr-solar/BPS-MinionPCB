@@ -1260,7 +1260,7 @@
     (property "Value" "SOMConnector" (at 240.03 32.385 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "UTSVT_Connectors:Molex_52465-2070" (at 247.65 131.75 0)
+    (property "Footprint" "UTSVT_Connectors:Molex_53307-2071" (at 247.65 131.75 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.molex.com/pdm_docs/sd/524652070_sd.pdf" (at 247.65 231.75 0)
