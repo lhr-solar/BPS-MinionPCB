@@ -26,6 +26,8 @@ fp-info-cache
 *.xml
 *.csv
 
+# Replicate layout
+*.log
 
 # Backup files
 BPS-Minion-backups/
