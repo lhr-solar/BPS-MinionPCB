@@ -1595,8 +1595,8 @@
     (property "Datasheet" "~" (at 212.09 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6798b135-809b-4346-a168-c55350f44696))
     (pin "1" (uuid fa756814-2b90-4342-8720-fcafaf239c3a))
+    (pin "2" (uuid 6798b135-809b-4346-a168-c55350f44696))
     (instances
       (project "BPS-Minion"
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
@@ -1658,10 +1658,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d8b35849-bdf9-4e03-8af8-75476e9461ff))
+    (pin "2" (uuid 3efabcd1-fe2b-4776-8594-c4f6c8929064))
+    (pin "3" (uuid 0566cbf5-8aa5-4c85-b3d9-f696a003ea49))
     (pin "4" (uuid 485e7e99-5abb-4890-8f10-fa7db01423d8))
     (pin "5" (uuid 425c5c5f-823f-4ae2-ad08-645b5f9aff81))
-    (pin "3" (uuid 0566cbf5-8aa5-4c85-b3d9-f696a003ea49))
-    (pin "2" (uuid 3efabcd1-fe2b-4776-8594-c4f6c8929064))
     (instances
       (project "BPS-Minion"
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"

@@ -31,3 +31,6 @@ fp-info-cache
 
 # Backup files
 BPS-Minion-backups/
+
+# Mac Specific
+.DS_Store
