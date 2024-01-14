@@ -504,7 +504,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 98.425 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03ce0f35-4a1e-4a66-803d-28066cc66228)
-    (property "Reference" "R65" (at 100.965 74.295 0)
+    (property "Reference" "R54" (at 100.965 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20" (at 100.965 76.835 0)
@@ -520,9 +520,6 @@
     (pin "2" (uuid 7d5d7a2e-6458-4f57-bfa0-74b312d2f3c2))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "R65") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "R54") (unit 1)
         )
@@ -548,7 +545,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 112.395 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0abbc4a6-fc04-4d83-8cdc-453572674e80)
-    (property "Reference" "J1" (at 126.365 60.96 0)
+    (property "Reference" "J6" (at 126.365 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TopConn" (at 123.825 60.96 0)
@@ -568,12 +565,6 @@
     (pin "6" (uuid 43215a3d-b0f5-4fc3-b055-dbcde2372bef))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "J1") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "J2") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "J6") (unit 1)
         )
@@ -599,7 +590,7 @@
   (symbol (lib_id "Device:C") (at 133.985 88.265 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ddd171e-5daf-4cac-ae5c-0654dcb19a2f)
-    (property "Reference" "C1" (at 133.985 80.645 90)
+    (property "Reference" "C30" (at 133.985 80.645 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220nF" (at 133.985 83.185 90)
@@ -615,12 +606,6 @@
     (pin "2" (uuid 3a1ea3e8-5fe6-4b0d-9315-2c9a1804df65))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C1") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "C42") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "C30") (unit 1)
         )
@@ -646,7 +631,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 83.185 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25600e3e-43cf-4e44-9378-1d5783db9fa1)
-    (property "Reference" "TP15" (at 84.455 99.695 90)
+    (property "Reference" "TP1" (at 84.455 99.695 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_2Pole" (at 81.915 99.695 90)
@@ -662,12 +647,6 @@
     (pin "2" (uuid 05353cd1-c756-40da-962a-89f9c65462fa))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "TP15") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "TP21") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "TP1") (unit 1)
         )
@@ -693,7 +672,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 118.745 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35d978b0-10c5-4653-8f22-a604ff5ba10f)
-    (property "Reference" "R67" (at 121.285 74.295 0)
+    (property "Reference" "R56" (at 121.285 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20" (at 121.285 76.835 0)
@@ -709,9 +688,6 @@
     (pin "2" (uuid 2151762b-107e-4429-8c00-2a37ab62e88a))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "R67") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "R56") (unit 1)
         )
@@ -737,7 +713,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 93.345 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47cfabf3-ca66-4601-a24c-57345b10ae8b)
-    (property "Reference" "TP15" (at 94.615 99.695 90)
+    (property "Reference" "TP2" (at 94.615 99.695 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_2Pole" (at 92.075 99.695 90)
@@ -753,12 +729,6 @@
     (pin "2" (uuid 95806643-4226-4806-9811-189276cec36b))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "TP15") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "TP22") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "TP2") (unit 1)
         )
@@ -784,7 +754,7 @@
   (symbol (lib_id "Device:C") (at 113.665 88.265 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5595df0d-0edf-4797-adb5-acd015ceab83)
-    (property "Reference" "C1" (at 113.665 80.645 90)
+    (property "Reference" "C28" (at 113.665 80.645 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220nF" (at 113.665 83.185 90)
@@ -800,12 +770,6 @@
     (pin "2" (uuid 5ad621aa-74fe-4702-b3be-2b206438c9e5))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C1") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "C40") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "C28") (unit 1)
         )
@@ -831,7 +795,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 108.585 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e3e29a7-a7e5-4d26-ad07-b324f7637647)
-    (property "Reference" "R66" (at 111.125 74.295 0)
+    (property "Reference" "R55" (at 111.125 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20" (at 111.125 76.835 0)
@@ -847,9 +811,6 @@
     (pin "2" (uuid 2ab6f411-ae71-4204-9851-197577980f71))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "R66") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "R55") (unit 1)
         )
@@ -875,7 +836,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 133.985 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ee2fbd8-a560-4452-99a1-560e0cded39f)
-    (property "Reference" "TP15" (at 135.255 99.695 90)
+    (property "Reference" "TP6" (at 135.255 99.695 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_2Pole" (at 132.715 99.695 90)
@@ -891,12 +852,6 @@
     (pin "2" (uuid 15a90765-859e-4697-ae07-508d5e45b05b))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "TP15") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "TP26") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "TP6") (unit 1)
         )
@@ -922,7 +877,7 @@
   (symbol (lib_id "Device:C") (at 83.185 88.265 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f9bd440-071e-4009-8ed1-18baf00d226e)
-    (property "Reference" "C1" (at 83.185 80.645 90)
+    (property "Reference" "C25" (at 83.185 80.645 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220nF" (at 83.185 83.185 90)
@@ -938,12 +893,6 @@
     (pin "2" (uuid 96b7ad9d-0199-4886-b12f-ac5251c1d748))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C1") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "C37") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "C25") (unit 1)
         )
@@ -969,7 +918,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 88.265 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74544e2c-6e35-415f-9c4b-25ce642e90c7)
-    (property "Reference" "R65" (at 90.805 74.295 0)
+    (property "Reference" "R53" (at 90.805 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20" (at 90.805 76.835 0)
@@ -985,9 +934,6 @@
     (pin "2" (uuid a36a759c-fc53-49b0-bb01-090401d8eee5))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "R65") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "R53") (unit 1)
         )
@@ -1013,7 +959,7 @@
   (symbol (lib_id "Device:C") (at 103.505 88.265 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d92a197-0364-4f44-b2c3-6981d00172fa)
-    (property "Reference" "C1" (at 103.505 80.645 90)
+    (property "Reference" "C27" (at 103.505 80.645 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220nF" (at 103.505 83.185 90)
@@ -1029,12 +975,6 @@
     (pin "2" (uuid 95e019d4-d93c-449b-adfd-22d1f5d5258d))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C1") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "C39") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "C27") (unit 1)
         )
@@ -1060,7 +1000,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 139.065 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e0198c9-8660-4708-aba9-1167a6b5b3e0)
-    (property "Reference" "R69" (at 141.605 74.295 0)
+    (property "Reference" "R58" (at 141.605 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20" (at 141.605 76.835 0)
@@ -1076,9 +1016,6 @@
     (pin "2" (uuid b699144b-3c1d-420f-8310-452b68981971))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "R69") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "R58") (unit 1)
         )
@@ -1104,7 +1041,7 @@
   (symbol (lib_id "Device:C") (at 93.345 88.265 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f6beb97-c927-410a-837e-f32505df1b93)
-    (property "Reference" "C1" (at 93.345 80.645 90)
+    (property "Reference" "C26" (at 93.345 80.645 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220nF" (at 93.345 83.185 90)
@@ -1120,12 +1057,6 @@
     (pin "2" (uuid 8fd8d8ab-1242-41ec-9bce-78954df436f8))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C1") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "C38") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "C26") (unit 1)
         )
@@ -1151,7 +1082,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 128.905 75.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96b8d00b-934f-40d5-ae0e-f6d8bc3ec81f)
-    (property "Reference" "R68" (at 131.445 74.295 0)
+    (property "Reference" "R57" (at 131.445 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20" (at 131.445 76.835 0)
@@ -1167,9 +1098,6 @@
     (pin "2" (uuid 5870532b-9f50-48e9-a950-a6af4fb8e639))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "R68") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "R57") (unit 1)
         )
@@ -1195,7 +1123,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 103.505 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4a3959d-f7b6-46ec-a1bb-0f7379c62d63)
-    (property "Reference" "TP15" (at 104.775 99.695 90)
+    (property "Reference" "TP3" (at 104.775 99.695 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_2Pole" (at 102.235 99.695 90)
@@ -1211,12 +1139,6 @@
     (pin "2" (uuid dd155c44-f800-47cf-9974-79e068fd2733))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "TP15") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "TP23") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "TP3") (unit 1)
         )
@@ -1242,7 +1164,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 123.825 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b814a9ce-099a-48e8-9277-aaf1067b8193)
-    (property "Reference" "TP15" (at 125.095 99.695 90)
+    (property "Reference" "TP5" (at 125.095 99.695 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_2Pole" (at 122.555 99.695 90)
@@ -1258,12 +1180,6 @@
     (pin "2" (uuid 988d9f77-96ae-406a-a3b7-88438c4775b6))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "TP15") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "TP25") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "TP5") (unit 1)
         )
@@ -1289,7 +1205,7 @@
   (symbol (lib_id "Connector:TestPoint_2Pole") (at 113.665 97.155 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6540bc2-3051-499b-b599-975218c646e9)
-    (property "Reference" "TP15" (at 114.935 99.695 90)
+    (property "Reference" "TP4" (at 114.935 99.695 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TestPoint_2Pole" (at 112.395 99.695 90)
@@ -1305,12 +1221,6 @@
     (pin "2" (uuid a32412b7-e581-4391-938d-7ed9e497dc04))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "TP15") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "TP24") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "TP4") (unit 1)
         )
@@ -1336,7 +1246,7 @@
   (symbol (lib_id "Device:C") (at 123.825 88.265 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fee57dc4-55d8-4852-b73a-991ee7f90358)
-    (property "Reference" "C1" (at 123.825 80.645 90)
+    (property "Reference" "C29" (at 123.825 80.645 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220nF" (at 123.825 83.185 90)
@@ -1352,12 +1262,6 @@
     (pin "2" (uuid 5ec27a48-f2dc-4fa2-8867-243b07aea9de))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C1") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "C41") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4/99c95b30-0f1e-4e73-bd00-8b5bda5489a4"
           (reference "C29") (unit 1)
         )

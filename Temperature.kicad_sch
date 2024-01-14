@@ -907,7 +907,7 @@
       (property "Value" "ADS7953SBDBT" (at 33.02 7.62 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "Package_SO:HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm" (at 0 0 0)
+      (property "Footprint" "Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm" (at 0 0 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads7953.pdf?ts=1703323490930&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS7953%252Fpart-details%252FADS7953SBDBT" (at 0 0 0)
@@ -1247,10 +1247,6 @@
     (stroke (width 0) (type default))
     (uuid 1f41bd14-3a67-451a-a881-2e4cb7c3db2b)
   )
-  (wire (pts (xy 229.87 109.855) (xy 229.87 111.125))
-    (stroke (width 0) (type default))
-    (uuid 21157352-a116-4ba2-b88d-f489f0893f76)
-  )
   (wire (pts (xy 246.38 49.53) (xy 237.49 49.53))
     (stroke (width 0) (type default))
     (uuid 224c74c3-a548-448d-ab87-a9ff342453ef)
@@ -1575,6 +1571,10 @@
     (stroke (width 0) (type default))
     (uuid d0376512-8de3-404f-9465-c775e2c5b7f7)
   )
+  (wire (pts (xy 229.87 111.76) (xy 229.87 111.125))
+    (stroke (width 0) (type default))
+    (uuid d6968c33-351b-4538-bdb0-25c1cb7b3b00)
+  )
   (wire (pts (xy 246.38 67.31) (xy 237.49 67.31))
     (stroke (width 0) (type default))
     (uuid d8b5854b-5f8e-4897-9055-69c502bcac1f)
@@ -1889,7 +1889,7 @@
   (symbol (lib_id "power:GNDA") (at 152.4 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03655d17-a29e-4536-b7b1-6372c00d5411)
-    (property "Reference" "#PWR029" (at 152.4 113.03 0)
+    (property "Reference" "#PWR058" (at 152.4 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 152.4 111.125 0)
@@ -1904,9 +1904,6 @@
     (pin "1" (uuid 7ee59d02-cb7e-484d-b88f-879655e9e8ac))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR058") (unit 1)
         )
@@ -1982,7 +1979,7 @@
   (symbol (lib_id "Device:R_US") (at 187.96 100.965 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b088bbf-dd33-4ee6-8981-ee5cf4bca86e)
-    (property "Reference" "R49" (at 187.96 94.615 90)
+    (property "Reference" "R33" (at 187.96 94.615 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 187.96 97.155 90)
@@ -1998,9 +1995,6 @@
     (pin "2" (uuid 745eecc8-2e41-4541-b8bd-2cfe0f86da7e))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "R49") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "R33") (unit 1)
         )
@@ -2014,7 +2008,7 @@
   (symbol (lib_id "Device:C") (at 195.58 104.775 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22075401-c89a-4d4e-8d17-ba96fa430d4a)
-    (property "Reference" "C21" (at 199.39 103.505 0)
+    (property "Reference" "C16" (at 199.39 103.505 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47n" (at 199.39 106.045 0)
@@ -2030,9 +2024,6 @@
     (pin "2" (uuid 92e6beff-8ac1-4d22-8af0-f9d8899ee982))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C21") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "C16") (unit 1)
         )
@@ -2046,7 +2037,7 @@
   (symbol (lib_id "power:+3.3V") (at 229.87 95.885 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 255b083f-0f18-4339-95f2-ac1eae71985d)
-    (property "Reference" "#PWR022" (at 229.87 99.695 0)
+    (property "Reference" "#PWR051" (at 229.87 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 229.87 90.805 0)
@@ -2061,9 +2052,6 @@
     (pin "1" (uuid 6df91c30-4e98-4548-8b09-9c3ab0e449e5))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR051") (unit 1)
         )
@@ -2082,7 +2070,7 @@
   (symbol (lib_id "Device:R_US") (at 204.47 100.965 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28835a46-f5c9-4089-8877-66b9446fe655)
-    (property "Reference" "R50" (at 204.47 94.615 90)
+    (property "Reference" "R34" (at 204.47 94.615 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7k" (at 204.47 97.155 90)
@@ -2098,9 +2086,6 @@
     (pin "2" (uuid 7a402ee4-aee7-47a1-901d-7c19ff2c6558))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "R50") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "R34") (unit 1)
         )
@@ -2114,7 +2099,7 @@
   (symbol (lib_id "power:GNDA") (at 167.64 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ab3e347-88b1-447c-bf3d-8c18b97e9221)
-    (property "Reference" "#PWR029" (at 167.64 83.82 0)
+    (property "Reference" "#PWR048" (at 167.64 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 167.64 81.915 0)
@@ -2129,9 +2114,6 @@
     (pin "1" (uuid 64435179-e3fd-4121-a4f6-af037b678307))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR048") (unit 1)
         )
@@ -2142,37 +2124,6 @@
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
           (reference "#PWR058") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 195.58 109.855 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2b0cc693-0fe3-4900-bd49-6c2ee8fdc1dc)
-    (property "Reference" "#PWR017" (at 195.58 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 195.58 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 195.58 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 195.58 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7717ea06-5406-4a4a-bc61-12b52b4cbbd5))
-    (instances
-      (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR017") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
-          (reference "#PWR049") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
-          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -2210,7 +2161,7 @@
   (symbol (lib_id "Amplifier_Operational:LM321") (at 232.41 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 379c4b2a-cf7d-4274-b7ae-96303c08809f)
-    (property "Reference" "U3" (at 242.57 99.3141 0)
+    (property "Reference" "U8" (at 242.57 99.3141 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM321" (at 242.57 101.8541 0)
@@ -2229,9 +2180,6 @@
     (pin "5" (uuid fc95d2db-470b-4ccf-97c2-0a3989556ba4))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "U3") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "U8") (unit 1)
         )
@@ -2274,7 +2222,7 @@
   (symbol (lib_id "Device:R_US") (at 248.285 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bea9560-e1a6-4dd2-b993-6b423ab1b78b)
-    (property "Reference" "R50" (at 249.555 29.845 0)
+    (property "Reference" "R89" (at 249.555 29.845 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 249.555 32.385 0)
@@ -2290,9 +2238,6 @@
     (pin "2" (uuid 1d1b215d-64df-4184-b323-c9df670bae74))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "R50") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "R89") (unit 1)
         )
@@ -2306,7 +2251,7 @@
   (symbol (lib_id "Device:C") (at 154.94 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f4d7f7a-2d85-4e2e-8582-a7a306d56a86)
-    (property "Reference" "C24" (at 147.32 36.83 0)
+    (property "Reference" "C15" (at 147.32 36.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 147.32 39.37 0)
@@ -2322,9 +2267,6 @@
     (pin "2" (uuid 3e64a65a-f54c-41a9-9195-580a4d9eb35d))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C24") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "C15") (unit 1)
         )
@@ -2335,10 +2277,38 @@
     )
   )
 
+  (symbol (lib_id "power:GNDA") (at 229.87 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 51873ce6-bb1b-45e5-83da-3b16e91b0d90)
+    (property "Reference" "#PWR012" (at 229.87 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 229.87 115.57 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 229.87 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 229.87 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ae679ee2-29f6-4421-9561-65c2398eaf29))
+    (instances
+      (project "BPS-Minion"
+        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 154.94 43.18 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58a5606f-ef15-4c77-8a5a-c97f647e1526)
-    (property "Reference" "#PWR01" (at 154.94 49.53 0)
+    (property "Reference" "#PWR045" (at 154.94 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 48.26 0)
@@ -2353,9 +2323,6 @@
     (pin "1" (uuid 8b134d86-1186-483d-8c1b-57d9a9cddb4f))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR045") (unit 1)
         )
@@ -2369,7 +2336,7 @@
   (symbol (lib_id "power:+2V5") (at 70.485 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 609fbb50-3f63-40b9-942d-6583f0129c0c)
-    (property "Reference" "#PWR064" (at 70.485 40.005 0)
+    (property "Reference" "#PWR042" (at 70.485 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 70.485 31.115 0)
@@ -2384,9 +2351,6 @@
     (pin "1" (uuid 6cd16f3c-1796-46aa-9e78-396583bee95d))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR064") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR042") (unit 1)
         )
@@ -2428,7 +2392,7 @@
   (symbol (lib_id "power:+2V5") (at 262.89 39.37 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b9d62cd-1981-4801-9954-bc8f160bcddf)
-    (property "Reference" "#PWR064" (at 259.08 39.37 0)
+    (property "Reference" "#PWR054" (at 259.08 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 266.7 40.005 90)
@@ -2443,9 +2407,6 @@
     (pin "1" (uuid 4162d16a-5270-4f0a-9d0b-77934c7b27f0))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR064") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR054") (unit 1)
         )
@@ -2514,37 +2475,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 213.36 109.855 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 72556910-9c56-4aeb-8446-3fa5257fa2b1)
-    (property "Reference" "#PWR019" (at 213.36 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 213.36 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 213.36 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 213.36 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid de923043-27a9-4d91-863e-15748195d644))
-    (instances
-      (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR019") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
-          (reference "#PWR050") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
-          (reference "#PWR069") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small_US") (at 125.095 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72693aed-ca38-4f48-929e-94df1e094073)
@@ -2603,37 +2533,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 229.87 109.855 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7b92759f-07fb-43cb-8152-044b56fd031d)
-    (property "Reference" "#PWR023" (at 229.87 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 229.87 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 229.87 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 229.87 109.855 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 95ee9067-ba28-403c-85ac-3b84b91a8444))
-    (instances
-      (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR023") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
-          (reference "#PWR052") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
-          (reference "#PWR071") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small_US") (at 86.36 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7da5e51a-7ddd-4a9f-88ef-08c8b386d41b)
@@ -2666,7 +2565,7 @@
   (symbol (lib_id "power:+3.3V") (at 154.94 33.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ff83ad8-60b7-4dd1-9d04-c1ff66b0123b)
-    (property "Reference" "#PWR011" (at 154.94 36.83 0)
+    (property "Reference" "#PWR044" (at 154.94 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 154.94 27.94 0)
@@ -2681,9 +2580,6 @@
     (pin "1" (uuid 26462f4e-d6c1-402d-81b2-44e2aa03a758))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR044") (unit 1)
         )
@@ -2760,7 +2656,7 @@
   (symbol (lib_id "power:VDDA") (at 165.735 54.61 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9425e27a-46b6-4170-ae88-0f8eb26d2fd5)
-    (property "Reference" "#PWR015" (at 169.545 54.61 0)
+    (property "Reference" "#PWR047" (at 169.545 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 161.925 54.61 90)
@@ -2775,9 +2671,6 @@
     (pin "1" (uuid d5de8b7b-4e74-40f7-b98f-810deae2b7ca))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR047") (unit 1)
         )
@@ -2791,7 +2684,7 @@
   (symbol (lib_id "power:VDDA") (at 152.4 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94cd0267-b930-4aa5-9639-82b0209f4545)
-    (property "Reference" "#PWR010" (at 152.4 95.25 0)
+    (property "Reference" "#PWR057" (at 152.4 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDDA" (at 154.94 90.17 0)
@@ -2806,9 +2699,6 @@
     (pin "1" (uuid c844f797-88cd-48bd-bb03-db0bfe2d4a40))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR057") (unit 1)
         )
@@ -2822,7 +2712,7 @@
   (symbol (lib_id "power:GNDA") (at 154.94 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 980a7638-1143-4e69-a053-b8e0a4067eca)
-    (property "Reference" "#PWR029" (at 154.94 58.42 0)
+    (property "Reference" "#PWR046" (at 154.94 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 154.94 56.515 0)
@@ -2837,9 +2727,6 @@
     (pin "1" (uuid fdbebb37-18e1-4061-8e4b-f595578c0635))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR046") (unit 1)
         )
@@ -2945,7 +2832,7 @@
   (symbol (lib_id "power:GNDA") (at 252.73 44.45 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0e50044-f4c8-4c15-a152-a89876c15e45)
-    (property "Reference" "#PWR08" (at 259.08 44.45 0)
+    (property "Reference" "#PWR080" (at 259.08 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 257.175 44.45 0)
@@ -2960,9 +2847,6 @@
     (pin "1" (uuid 2601c901-8033-43c7-afb9-0015f3d2a51e))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR08") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR080") (unit 1)
         )
@@ -3010,7 +2894,7 @@
   (symbol (lib_id "power:GNDA") (at 250.825 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa291866-defa-4081-beb9-2891470a32e1)
-    (property "Reference" "#PWR029" (at 250.825 58.42 0)
+    (property "Reference" "#PWR056" (at 250.825 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 250.825 56.515 0)
@@ -3025,9 +2909,6 @@
     (pin "1" (uuid 6578bae5-9339-4620-9829-4217b81f64e3))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR056") (unit 1)
         )
@@ -3046,7 +2927,7 @@
   (symbol (lib_id "Device:R_US") (at 239.395 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4559cf0-4b6c-4aa7-bca4-fe651618baed)
-    (property "Reference" "R50" (at 240.665 23.495 0)
+    (property "Reference" "R91" (at 240.665 23.495 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 240.665 26.035 0)
@@ -3062,9 +2943,6 @@
     (pin "2" (uuid ff6e61d0-0f49-4931-abb6-30cdc9726652))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "R50") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "R91") (unit 1)
         )
@@ -3078,7 +2956,7 @@
   (symbol (lib_id "power:GNDA") (at 52.07 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7701fa3-28c6-4021-ae6d-132a23ba0e61)
-    (property "Reference" "#PWR029" (at 52.07 63.5 0)
+    (property "Reference" "#PWR040" (at 52.07 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 52.07 61.595 0)
@@ -3093,9 +2971,6 @@
     (pin "1" (uuid d133ccfa-3acb-4e79-af63-1845eadcb5db))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR040") (unit 1)
         )
@@ -3114,7 +2989,7 @@
   (symbol (lib_id "power:GNDA") (at 240.03 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcfef1e8-b07d-4c65-8d49-6e161838a9b9)
-    (property "Reference" "#PWR09" (at 240.03 83.82 0)
+    (property "Reference" "#PWR053" (at 240.03 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 240.03 81.915 0)
@@ -3129,9 +3004,6 @@
     (pin "1" (uuid e6f93742-aecb-46f8-b6b4-e7351d93695e))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR053") (unit 1)
         )
@@ -3150,7 +3022,7 @@
   (symbol (lib_id "power:GNDA") (at 267.335 31.115 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c11f16de-d6cb-411b-aa08-aebef57bf4e4)
-    (property "Reference" "#PWR08" (at 273.685 31.115 0)
+    (property "Reference" "#PWR055" (at 273.685 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 271.78 31.115 0)
@@ -3165,9 +3037,6 @@
     (pin "1" (uuid 7e6d0ffc-2781-408e-95b2-d8d17f70823a))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR08") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR055") (unit 1)
         )
@@ -3229,9 +3098,6 @@
         )
       )
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "J7") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "J4") (unit 1)
         )
@@ -3274,13 +3140,13 @@
   (symbol (lib_id "utsvt-chips:ADS7953SBDBT") (at 237.49 31.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd506894-4b33-4081-8cdf-641f016ee184)
-    (property "Reference" "U1" (at 204.47 21.59 0)
+    (property "Reference" "U9" (at 204.47 21.59 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "ADS7953SBDBT" (at 204.47 24.13 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_SO:HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm" (at 237.49 31.75 0)
+    (property "Footprint" "Package_SO:TSSOP-38_4.4x9.7mm_P0.5mm" (at 237.49 31.75 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads7953.pdf?ts=1703323490930&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS7953%252Fpart-details%252FADS7953SBDBT" (at 237.49 31.75 0)
@@ -3326,9 +3192,6 @@
     (pin "9" (uuid 60a87f0c-e712-44c4-b02c-28cac7d38fc4))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "U1") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "U9") (unit 1)
         )
@@ -3342,7 +3205,7 @@
   (symbol (lib_id "Device:C") (at 152.4 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1a3b0fd-5e04-4a3b-86b2-bbded50ce0ff)
-    (property "Reference" "C24" (at 160.02 101.6 0)
+    (property "Reference" "C18" (at 160.02 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 160.02 99.06 0)
@@ -3358,9 +3221,6 @@
     (pin "2" (uuid 6ff6007d-b760-45bb-a728-5d285c73fa42))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C24") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "C18") (unit 1)
         )
@@ -3371,10 +3231,38 @@
     )
   )
 
+  (symbol (lib_id "power:GNDA") (at 213.36 109.855 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d313618f-1184-4b5c-b77d-58702093ea67)
+    (property "Reference" "#PWR010" (at 213.36 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 213.36 114.3 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 213.36 109.855 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 213.36 109.855 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 58b06c92-a08b-4473-a448-7aeead55cd86))
+    (instances
+      (project "BPS-Minion"
+        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
+          (reference "#PWR010") (unit 1)
+        )
+        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 162.56 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d65f71b6-24a4-44f4-973f-78e88d297a86)
-    (property "Reference" "C24" (at 170.18 101.6 0)
+    (property "Reference" "C19" (at 170.18 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 170.18 99.06 0)
@@ -3390,9 +3278,6 @@
     (pin "2" (uuid ba475e3e-f73b-4b46-9a42-2d02bf947d0f))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C24") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "C19") (unit 1)
         )
@@ -3434,7 +3319,7 @@
   (symbol (lib_id "Device:C") (at 213.36 104.775 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8d91fda-6876-422d-9a34-06fb465d8cc9)
-    (property "Reference" "C22" (at 217.17 103.505 0)
+    (property "Reference" "C17" (at 217.17 103.505 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47n" (at 217.17 106.045 0)
@@ -3450,9 +3335,6 @@
     (pin "2" (uuid 6dc210c8-7326-447b-bb82-538f51d7444a))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "C22") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "C17") (unit 1)
         )
@@ -3495,7 +3377,7 @@
   (symbol (lib_id "power:GNDA") (at 52.07 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dda825ff-c910-4581-b31d-587a5688e4c3)
-    (property "Reference" "#PWR029" (at 52.07 93.98 0)
+    (property "Reference" "#PWR041" (at 52.07 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDA" (at 52.07 92.075 0)
@@ -3510,9 +3392,6 @@
     (pin "1" (uuid 8be04be7-e2d7-4bd8-be7c-bdc6991621e5))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR029") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR041") (unit 1)
         )
@@ -3557,10 +3436,38 @@
     )
   )
 
+  (symbol (lib_id "power:GNDA") (at 195.58 109.855 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e2fdb5f2-2210-43ae-893e-fc9a76e4205e)
+    (property "Reference" "#PWR06" (at 195.58 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDA" (at 195.58 114.3 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 195.58 109.855 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 195.58 109.855 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8d69d5aa-b329-4fb9-8a79-774010ade22f))
+    (instances
+      (project "BPS-Minion"
+        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
+          (reference "#PWR06") (unit 1)
+        )
+        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+2V5") (at 70.485 61.595 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e840301f-9794-459c-89fb-74d792115c66)
-    (property "Reference" "#PWR064" (at 70.485 65.405 0)
+    (property "Reference" "#PWR043" (at 70.485 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 70.485 56.515 0)
@@ -3575,9 +3482,6 @@
     (pin "1" (uuid fcee8911-8a1e-465f-9b0a-91955c2775ca))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
-          (reference "#PWR064") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
           (reference "#PWR043") (unit 1)
         )

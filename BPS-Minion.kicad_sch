@@ -1409,12 +1409,6 @@
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "#PWR09") (unit 1)
         )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
-          (reference "#PWR050") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
-          (reference "#PWR072") (unit 1)
-        )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -1478,7 +1472,7 @@
   (symbol (lib_id "power:GND") (at 267.97 51.435 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f71fa88-59d6-4710-820d-fb0dbbc3c50b)
-    (property "Reference" "#PWR033" (at 274.32 51.435 0)
+    (property "Reference" "#PWR091" (at 274.32 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 272.3642 51.308 0)
@@ -1492,11 +1486,6 @@
     )
     (pin "1" (uuid c1365f9a-a685-4ad2-a0ba-939088120a36))
     (instances
-      (project "BPS-Minion"
-        (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
-          (reference "#PWR033") (unit 1)
-        )
-      )
       (project "BPS-Minion"
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "#PWR091") (unit 1)
@@ -1536,12 +1525,6 @@
       (project "BPS-Minion"
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "C2") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
-          (reference "C13") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
-          (reference "C21") (unit 1)
         )
       )
     )
@@ -1674,12 +1657,6 @@
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "#PWR04") (unit 1)
         )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
-          (reference "#PWR046") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
-          (reference "#PWR068") (unit 1)
-        )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -1770,12 +1747,6 @@
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "C1") (unit 1)
         )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
-          (reference "C12") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
-          (reference "C20") (unit 1)
-        )
       )
     )
   )
@@ -1801,12 +1772,6 @@
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "#PWR05") (unit 1)
         )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
-          (reference "#PWR042") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
-          (reference "#PWR064") (unit 1)
-        )
       )
       (project "BPS-PeripheralSOM"
         (path "/d5ebd247-5a7c-47c2-8aee-beabaef72d6d"
@@ -1819,7 +1784,7 @@
   (symbol (lib_id "power:GND") (at 201.295 61.595 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 721367c4-c2d3-4838-9fdf-944f62cce489)
-    (property "Reference" "#PWR033" (at 194.945 61.595 0)
+    (property "Reference" "#PWR089" (at 194.945 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.9008 61.722 0)
@@ -1833,11 +1798,6 @@
     )
     (pin "1" (uuid c0f7989d-152b-41a3-af26-10398cbc801e))
     (instances
-      (project "BPS-Minion"
-        (path "/2babaac7-f526-4cf0-9fd3-e41c8ce76812"
-          (reference "#PWR033") (unit 1)
-        )
-      )
       (project "BPS-Minion"
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "#PWR089") (unit 1)
@@ -1937,12 +1897,6 @@
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "#PWR03") (unit 1)
         )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/65591444-50c0-46ff-82f0-4bfa8ad4eabe"
-          (reference "#PWR047") (unit 1)
-        )
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/98f2c097-f698-458d-a76f-f260a66d6150"
-          (reference "#PWR069") (unit 1)
-        )
       )
     )
   )
@@ -1995,9 +1949,6 @@
     (pin "1" (uuid 8a0cc363-d1ec-47de-8243-e1e835c8d813))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "#FLG01") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "#FLG01") (unit 1)
         )
@@ -2023,9 +1974,6 @@
     (pin "1" (uuid 73f7ff2f-c3f5-43aa-9c08-cb2e5940d93c))
     (instances
       (project "BPS-Minion"
-        (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24/f4179d79-1229-45f6-9801-99c07e86bfe4"
-          (reference "#FLG02") (unit 1)
-        )
         (path "/86f4c077-2357-4bc0-9102-0d9b954ffb24"
           (reference "#FLG02") (unit 1)
         )
