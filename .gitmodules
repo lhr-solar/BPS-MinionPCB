@@ -1,4 +1,5 @@
-[submodule "common"]
+
+[submodule "UTSVT-KiCadLibraries"]
 	path = UTSVT-KiCadLibraries
 	url = git@github.com:lhr-solar/UTSVT-KiCadLibraries.git
 	branch = VoltTemp
