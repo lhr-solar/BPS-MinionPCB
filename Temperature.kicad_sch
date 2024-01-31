@@ -3061,7 +3061,7 @@
     (property "Value" "Conn_01x24_Female" (at 42.545 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "UTSVT_Connectors:PADP-24V-1-S" (at 42.545 62.23 0)
+    (property "Footprint" "UTSVT_Connectors:B24B-PADSS-F" (at 42.545 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 42.545 62.23 0)
