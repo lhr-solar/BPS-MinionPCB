@@ -2,13 +2,12 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [
       "GND",
       "GND2",
       "GND1",
-      "GNDA",
       "+3.3V",
       "+2V5"
     ],
@@ -72,7 +71,7 @@
       35,
       36
     ],
-    "visible_layers": "000ffff_80000001",
+    "visible_layers": "000bfff_80000001",
     "zone_display_mode": 0
   },
   "meta": {
