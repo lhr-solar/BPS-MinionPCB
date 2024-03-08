@@ -373,10 +373,10 @@
       (net 48 "Net-(J9-Pin_5)") (pinfunction "Pin_5") (pintype "passive") (tstamp 51e8ed01-089a-4d22-8b8b-615b9c3d0ac8))
     (pad "6" thru_hole oval (at 15 0 180) (size 1.5 2.02) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 71 "Net-(J9-Pin_6)") (pinfunction "Pin_6") (pintype "passive") (tstamp b5af3b61-8dbb-4fce-92b9-a05d8ad84a1b))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0600_1x06_P3.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500600.stp"
+      (offset (xyz 7.5 4 1.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -1022,10 +1022,10 @@
       (net 100 "Net-(J10-Pin_5)") (pinfunction "Pin_5") (pintype "passive") (tstamp d1acdaac-9d3b-4b6b-a01d-c66b1459c13b))
     (pad "6" thru_hole oval (at 15 0 180) (size 1.5 2.02) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 101 "Net-(J10-Pin_6)") (pinfunction "Pin_6") (pintype "passive") (tstamp 71ddb69e-4585-4f4b-96a3-eef33a25834e))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0600_1x06_P3.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500600.stp"
+      (offset (xyz 7.5 4 2))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -2931,10 +2931,10 @@
       (net 13 "Net-(J8-Pin_5)") (pinfunction "Pin_5") (pintype "passive") (tstamp d7a59fa4-04c5-44f3-b63c-eb609f02c072))
     (pad "6" thru_hole oval (at 15 0) (size 1.5 2.02) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 14 "Net-(J8-Pin_6)") (pinfunction "Pin_6") (pintype "passive") (tstamp 84220816-505f-4b52-afa4-ccb65ef84a7a))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0600_1x06_P3.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500600.stp"
+      (offset (xyz 7.5 4 1))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 -180 0))
     )
   )
 
@@ -3922,10 +3922,10 @@
       (net 41 "Net-(J6-Pin_5)") (pinfunction "Pin_5") (pintype "passive") (tstamp a8148047-b625-4659-b01e-d17556f88014))
     (pad "6" thru_hole oval (at 15 0) (size 1.5 2.02) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 42 "Net-(J6-Pin_6)") (pinfunction "Pin_6") (pintype "passive") (tstamp b8398348-a132-4fdd-b160-3ca6be65b46d))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0600_1x06_P3.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500600.stp"
+      (offset (xyz 7.5 4 1.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -4662,10 +4662,10 @@
       (net 141 "Net-(J11-Pin_5)") (pinfunction "Pin_5") (pintype "passive") (tstamp 7f0e3efb-3316-461f-b91e-8d119a1d19f1))
     (pad "6" thru_hole oval (at 15 0 180) (size 1.5 2.02) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 142 "Net-(J11-Pin_6)") (pinfunction "Pin_6") (pintype "passive") (tstamp 67d1e1b7-a7c1-4d45-b1f5-d9aa595a746f))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0600_1x06_P3.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500600.stp"
+      (offset (xyz 7.5 4 1.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -5385,10 +5385,10 @@
       (net 7 "Net-(J7-Pin_5)") (pinfunction "Pin_5") (pintype "passive") (tstamp 9a36caf1-291f-4abf-a9fa-de11e0fe7fd2))
     (pad "6" thru_hole oval (at 15 0) (size 1.5 2.02) (drill 1.02) (layers "*.Cu" "*.Mask")
       (net 8 "Net-(J7-Pin_6)") (pinfunction "Pin_6") (pintype "passive") (tstamp 8091494e-dea4-4176-97fe-43f0da67f604))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0600_1x06_P3.00mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500600.stp"
+      (offset (xyz 7.5 4 1))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 -180 0))
     )
   )
 
