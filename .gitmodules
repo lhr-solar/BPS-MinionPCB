@@ -1,6 +1,5 @@
-[submodule "common"]
-	path = common
+
+[submodule "UTSVT-KiCadLibraries"]
+	path = UTSVT-KiCadLibraries
 	url = git@github.com:lhr-solar/UTSVT-KiCadLibraries.git
-[submodule "bps-libs"]
-	path = bps-libs
-	url = git@github.com:lhr-solar/BPS-KiCadLibraries.git
+	branch = VoltTemp

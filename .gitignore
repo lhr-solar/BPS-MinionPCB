@@ -6,7 +6,8 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
-*.sch-bak
+*sch-bak
+*.lck
 *~
 _autosave-*
 *.tmp
@@ -24,3 +25,12 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Replicate layout
+*.log
+
+# Backup files
+BPS-Minion-backups/
+
+# Mac Specific
+.DS_Store
